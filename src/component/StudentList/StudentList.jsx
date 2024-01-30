@@ -39,7 +39,7 @@ function StudentList() {
       <ul>
         {students.map((student) => (
           <li key={student.ID}>
-            Name = {student.Name} Price = {student.Age}
+            Name = {student.Name} Age = {student.Age}
           </li>
         ))}
       </ul>

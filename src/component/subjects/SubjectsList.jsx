@@ -39,7 +39,7 @@ function SubjectsList() {
       <ul>
         {subjects.map((subject) => (
           <li key={subject.ID}>
-            Name = {subject.Subject_name} Price = {subject.Subject_credit}
+            Name = {subject.Subject_name} Credit = {subject.Subject_credit}
           </li>
         ))}
       </ul>
