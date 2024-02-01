@@ -14,6 +14,7 @@ import SubjectFormFind from "./component/SubjectFormFind/index.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider>
+      <App />
       <ItemFormFind />
       <StudentFormFind />
       <SubjectFormFind />
